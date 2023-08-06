@@ -5,7 +5,7 @@ function upperCaseCustomerName() {
     customerName = customerName.toLocaleUpperCase()
 }
 function setBestCustomer() {
-    globalThis.bestCustomer = 'not bob'
+    bestCustomer = 'not bob'
 }
 
 function overwriteBestCustomer(string) {
